@@ -2,6 +2,7 @@ import credentials
 from codeforces.codeforcesHandler import CodeForcesHandler
 from fileHanlers import FileHandlers
 import time
+import os
 
 def updateCodeforces(problems):
     print("Codeforces: Updating profile")
@@ -25,6 +26,9 @@ def updateCodeforces(problems):
 
 def updateGithub():
     FileHandlers.appendNew('dummy.txt')
+    os.system("git add .")
+    os.system("git commit -am 'another update'")
+    os.system("git push -u origin main")
 
 def updateLinkedin():
     pass
@@ -40,3 +44,4 @@ if __name__ == "__main__":
         {"contest_id": '1809', "problem_id": 'A', 'code_file': 'cf3.cpp'}
         ]
     # updateCodeforces(problems)
+    updateGithub()
