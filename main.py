@@ -21,8 +21,6 @@ def updateCodeforces(problems):
         time.sleep(10)
 
     print("Codeforces Updated....")
-        
-
 
 def updateGithub():
     FileHandlers.appendNew('dummy.txt')
@@ -30,11 +28,6 @@ def updateGithub():
     os.system("git commit -am 'another update'")
     os.system("git push -u origin main")
 
-def updateLinkedin():
-    pass
-
-def updateGFG():
-    pass
 
 
 if __name__ == "__main__":
@@ -43,5 +36,5 @@ if __name__ == "__main__":
         {"contest_id": '1809', "problem_id": 'B', 'code_file': 'cf2.cpp'},
         {"contest_id": '1809', "problem_id": 'A', 'code_file': 'cf3.cpp'}
         ]
-    # updateCodeforces(problems)
+    updateCodeforces(problems)
     updateGithub()
