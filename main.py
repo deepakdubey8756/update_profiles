@@ -22,7 +22,10 @@ def updateCodeforces(problems):
 
     print("Codeforces Updated....")
 
+
+
 def updateGithub():
+    print("Updating github")
     FileHandlers.appendNew('dummy.txt')
     os.system("git add .")
     os.system("git commit -am 'another update'")
