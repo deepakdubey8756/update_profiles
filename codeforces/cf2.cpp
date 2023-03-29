@@ -38,3 +38,6 @@ signed main()
 // this is my conmment0.8186915049994206
 // this is my conmment0.23469108896551372
 // this is my conmment0.8162249068315122
+// this is my conmment0.035532637009700885
+// this is my conmment0.3012925761597506
+// this is my conmment0.8982108883236095
