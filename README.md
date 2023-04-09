@@ -1,2 +1,2 @@
 # update_profiles
-A simple project to update different profiles
+This is a simple web scrapping project to automatically update my profiles.
